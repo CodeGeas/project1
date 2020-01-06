@@ -1,0 +1,84 @@
+h1 {
+	color: dodgerBlue;
+	margin: 15px;
+}
+
+hr {
+	border-width: 5px;
+	margin-bottom: 2em;
+}
+
+.error {
+	text-align: center;
+	border: 2px red solid;
+	border-radius: 5px;
+	margin: 2em auto;
+	width: 25%;
+	padding: 1em;
+	background-color: #ffcccc;
+} 
+
+.success {
+	text-align: center;
+	border: 2px green solid;
+	border-radius: 5px;
+	margin: 2em auto;
+	width: 25%;
+	padding: 1em;
+	background-color: #d6f5d6;
+}
+
+.formWrapper {
+	border: 1px dodgerBlue solid;
+	margin: 2em auto;
+	width: 30%;
+}
+
+.form-title {
+	text-align: center;
+	background-color: dodgerBlue;
+	margin: 0;
+	height: 1em;
+	padding: 0.5em;
+}
+
+.inputDiv {
+ 	height: 2em;
+    margin: 1em auto;
+    width: 90%;
+}
+
+.inputField {
+	font-size: 1em;
+    height: 2em;
+    width: 98%;
+    margin: 1em auto;
+}
+
+.loginButton {
+	font-size: 1em;
+	margin: 2em auto 0;
+ 	width: 100%;
+ 	height: 2em;
+	background-color: dodgerBlue;
+}
+
+.redirectLink {
+	border: 1em dodgerBlue solid;
+	border-radius: 0.5em;
+	font-size: 1em;
+	margin: 1em;
+ 	height: 2em;
+	background-color: dodgerBlue;
+}
+
+.logoutButton {
+	border: 1px dodgerBlue solid;
+	border-radius: 0.5em;
+	font-size: 1em;
+ 	height: 2em;
+ 	width: 25%;
+ 	padding: 0.5em;
+ 	margin: 0 1em;
+ 	background-color: dodgerBlue;
+}

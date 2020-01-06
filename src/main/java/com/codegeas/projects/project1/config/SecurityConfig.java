@@ -1,4 +1,4 @@
-package com.codegeas.project1.config;
+package com.codegeas.projects.project1.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -15,7 +15,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http  
 	    .authorizeRequests()  
 	        .antMatchers("/").permitAll()
-	        .antMatchers( "/css/**").permitAll()  
+	        .antMatchers( "/public/**").permitAll()  
 	        .anyRequest().authenticated()  
         .and()  
 	        .formLogin()  

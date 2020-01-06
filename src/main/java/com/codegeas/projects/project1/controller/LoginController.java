@@ -1,4 +1,4 @@
-package com.codegeas.project1.controller;
+package com.codegeas.projects.project1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -61,6 +61,7 @@ hr {
  	width: 100%;
  	height: 2em;
 	background-color: dodgerBlue;
+	cursor: pointer;
 }
 
 .redirectLink {
@@ -81,4 +82,5 @@ hr {
  	padding: 0.5em;
  	margin: 0 1em;
  	background-color: dodgerBlue;
+ 	cursor: pointer;
 }

@@ -1,4 +1,4 @@
-package com.codegeas.project1;
+package com.codegeas.projects.project1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
